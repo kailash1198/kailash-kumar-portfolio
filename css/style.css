@@ -8,6 +8,28 @@
 }
 
 
+/* --utility/primary-btn-- */
+
+.primary-btn {
+    margin-top: 3rem;
+}
+
+.primary-btn a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: 1px solid white;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.primary-btn a:hover {
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+
+
 /* =============header section============= */
 
 #header {
@@ -15,4 +37,67 @@
     height: 100vh;
     background-color: black;
     color: white;
+}
+
+#header .container {
+    width: 100%;
+}
+
+#header .container .main-container {
+    width: 100%;
+    margin: auto;
+}
+
+
+/* --header/box 1-- */
+
+#header .container .main-container .box1 {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#header .container .main-container .box1 ul {
+    display: flex;
+}
+
+#header .container .main-container .box1 ul li {
+    list-style: none;
+}
+
+#header .container .main-container .box1 ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0rem 1rem;
+}
+
+
+/* --header/box2-- */
+
+#header .container .main-container .box2 {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .container .main-container .box2 .sub-box1 h1 {
+    font-size: 5.5rem;
+    font-weight: bold;
+    color: red;
+}
+
+#header .container .main-container .box2 .sub-box1 p {
+    width: 70%;
+    color: gray;
+    line-height: 1.5;
+}
+
+#header .container .main-container .box2 .sub-box2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.336);
 }
