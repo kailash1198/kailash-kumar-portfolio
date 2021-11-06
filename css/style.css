@@ -314,3 +314,64 @@
 }
 
 /* ===============fouth section/contact================ */
+
+#contact {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#contact .container {
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+
+#contact .container .main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact .container .main-container .box {
+    width: 100%;
+    padding: 2rem;
+}
+
+#contact .container .main-container .box2 img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#contact .container .main-container .box1 .content h1 {
+    font-size: 3rem;
+}
+
+#contact .container .main-container .box1 .content p {
+    color: gray;
+    margin: 1rem 0rem;
+}
+
+#contact .container .main-container .box1 .form-container {
+    padding: 2rem 0rem;
+}
+
+#contact .container .main-container .box1 .form-container input {
+    display: block;
+    margin: 1rem;
+    width: 90%;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.453);
+}
+
+#contact .container .main-container .box1 .form-container input:last-child {
+    width: 20%;
+    background-color: rgba(215, 18, 233, 0.46);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+/* ============footer============= */
